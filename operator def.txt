@@ -1,0 +1,49 @@
+ Q 1 part a)>>>
+BITWISE OPERATOR
+
+The bitwise operators are the operators used to perform the operations on the data at the bit-level. When we perform the bitwise operations, then it is also known as bit-level programming. It consists of two digits, either 0 or 1. It is mainly used in numerical computations to make the calculations faster.
+List of bitwise operators are ---
+&	Bitwise AND operator
+|	Bitwise OR operator
+^	Bitwise exclusive OR operator
+~	One's complement operator (unary operator)
+<<	Left shift operator
+>>	Right shift operator
+
+EXAMPLE 
+
+#include <stdio.h>
+ int main()
+{
+   printf("AND value = %d\n",(m&n));
+   printf("OR value = %d\n",(m|n));
+   printf("NOT value = %d\n",(~m));
+   printf("NOT value = %d\n",(~n));
+   printf("XOR value = %d\n",(m^n));
+   printf("left_shift value = %d\n",m << 1);
+   printf("right_shift value = %d\n",m >> 1);
+return 0;
+}
+
+-----------------------------------------------
+
+ Q1 part b)>>>
+TERNARY OPERATOR
+ Ternary operator is used for decision making in place for longer if and else conditional statements.The ternary operator take three arguments that is the first is a comparison argument,the second being the result upon a true condition & the third is the result upon a false condition.
+
+SYNTAX
+
+(CONDITION)? STATEMENT1 : STATEMENT2;
+
+EXAMPLE
+
+#include <stdio.h>
+ int main()
+{
+int a=10,b=20;
+printf(" greater is %d\n",((a>b)?a:b));
+return 0;
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
